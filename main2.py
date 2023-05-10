@@ -24,7 +24,7 @@ def chenging(new_text: str) -> str:
         new_simbol = str(input(new_text+"\n"+"На какой символ хотите поменять? - "))
         if new_simbol not in ALPHABET:
             flag = 1
-        if flag!=1:
+        if flag != 1:
             new_text = new_text.replace(simbol, new_simbol)
     return new_text
 
